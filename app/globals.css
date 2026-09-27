@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+}
+
+h2,h3 {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.1;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+::selection {
+  background-color: rgb(29, 2, 29);
+  color: white;
+}
+::-moz-selection {
+  background-color: rgb(29, 2, 29);
+  color: white;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #e100ff, #5a009f, #ff00aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.blog-content th,
+.blog-content td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.blog-content th {
+  background: #f9f9f9;
+  font-weight: bold;
+}
+.ultra-bold {
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px currentColor;
+}
+.low-bold{
+  letter-spacing: 0.5px;
+  -webkit-text-stroke: 0.9px currentColor;
+}
+.shadow-box
+{
+  box-shadow: 0 5px 100px rgba(0, 0, 0, 0.466), 0 1px 3px rgba(0, 0, 0, 0.541);
+}
+.shadow-box-lighter
+{
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.466), 0 1px 3px rgba(0, 0, 0, 0.541);
+}

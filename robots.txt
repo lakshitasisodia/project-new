@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.graphicalproximity.com/sitemap.xml
+Host: https://www.graphicalproximity.com
