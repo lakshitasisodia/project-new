@@ -74,6 +74,66 @@ const serviceHubData = {
       },
     ],
   },
+
+  "social-media": {
+    title: "Social Media",
+    label: "Social Media by Specialty",
+    heading: "Instagram, LinkedIn, or the Strategy Behind Both?",
+    subtitle:
+      "Instagram management, LinkedIn management, and the strategy layer that decides what either should actually contain — three different jobs. Pick the one that matches where you are.",
+    intro:
+      "\"Social media management\" gets used as if it's one job across every platform. It isn't — Instagram and LinkedIn have different audiences, different content formats, and different management rhythms, and both depend on a strategy decision (platform, pillars, cadence) that should happen before either starts. This hub splits social media into those three pieces. Everything here rolls up into the combined retainer on the main Social Media Management page.",
+    quote: "Instagram and LinkedIn are different jobs wearing the same job title.",
+    flatPageHref: "/social-media",
+    flatPageLabel: "See the Full Social Media Management Retainer",
+    children: [
+      {
+        slug: "instagram-management",
+        title: "Instagram Management",
+        sub: "Content calendar, feed posts, reels scripts, and DM handling — consistent presence that converts.",
+        status: "live",
+      },
+      {
+        slug: "linkedin-management",
+        title: "LinkedIn Management",
+        sub: "LinkedIn run inside the same system as Instagram — see the full dedicated service on LinkedIn Personal Branding.",
+        status: "live",
+      },
+      {
+        slug: "social-media-optimization",
+        title: "Social Media Optimization",
+        sub: "The audit and strategy layer before content gets made — platform choice, content pillars, and posting cadence.",
+        status: "live",
+      },
+    ],
+  },
+
+  "branding": {
+    title: "Branding",
+    label: "Branding by Phase",
+    heading: "Diagnose First, or Go Straight to Design?",
+    subtitle:
+      "A brand audit and brand identity design are two different phases — diagnosis, then build. See each on its own page, or the combined process on the main Branding page.",
+    intro:
+      "Branding work splits naturally into two phases: understanding what's currently wrong or inconsistent (a brand audit), and then actually designing the fix (brand identity design). Businesses unsure whether they need a full rebrand often benefit from starting with the audit alone. Businesses that already know they need new design work can go straight to the build. Everything here rolls up into the combined process on the main Branding page.",
+    quote: "You can't design your way out of a problem you haven't diagnosed.",
+    flatPageHref: "/branding",
+    flatPageLabel: "See the Full Branding Process",
+    children: [
+      {
+        slug: "brand-audit",
+        title: "Brand Audit",
+        sub: "A structured diagnostic of your current brand, delivered as a prioritised report — often the right first step.",
+        status: "live",
+      },
+      {
+        slug: "brand-identity-design",
+        title: "Brand Identity Design",
+        sub: "Logo, visual system, and guidelines — the actual build, for founders who already know what they need.",
+        status: "live",
+      },
+    ],
+  },
 };
 
 export default serviceHubData;
